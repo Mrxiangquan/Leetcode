@@ -6,7 +6,6 @@ int main(){
     cout << "input a and b" << endl;
     cin >> a >> b;
     cout << "a+b is " << a + b << endl;
-    //cout<<"hello world"<<endl;
     system("pause");
     return 0;
 }
