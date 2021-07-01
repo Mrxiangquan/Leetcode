@@ -1,11 +1,11 @@
 #include "iostream"
+#include <vector>
 using namespace std;
 
 int main(){
-    int a, b;
-    cout << "input a and b" << endl;
-    cin >> a >> b;
-    cout << "a+b is " << a + b << endl;
+    vector<int> nums;
+    nums.push_back(1);
+    nums.push_back(2);
+    cout<<nums.size()<<endl;
     system("pause");
-    return 0;
 }
